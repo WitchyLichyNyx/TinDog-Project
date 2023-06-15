@@ -31,5 +31,22 @@
   align-self: flex-end!important;
   padding-top: 5rem;
 }
+.list-unstyled{
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 
-
+@media (max-width: 600px){
+  .dogimg{
+    min-height: 200px;
+    min-width: 100px;
+  }
+  .btn{
+    max-height: 55px;
+  }
+  .h1{
+    margin-right: 10px;
+  }
+}
